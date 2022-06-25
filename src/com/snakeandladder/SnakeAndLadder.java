@@ -24,7 +24,7 @@ public class SnakeAndLadder {
                     System.out.println("Die Rolls ...... " + dieRolls);
                     System.out.println("Option is ...... " + option);
                     playerPosition = playerPosition + dieRolls;
-                    if (playerPosition > 100) {
+                    if (playerPosition >= 100) {
                         playerPosition = 100;
                     }
                     System.out.println("Got a Ladder & Your Position Goes to " + playerPosition);
